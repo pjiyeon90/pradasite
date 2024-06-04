@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쇼핑몰 만들기</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/shopingmall.css">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Prada</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">여성</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">남성</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">백</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">기프트</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">RE-NYLON 컬렉션</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">홈</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRADA SPHERE</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="상품명을 입력하세요." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <!--슬라이드-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.prada.com/content/dam/pradanux/pradasphere/2024/special-projects/05/Popup_Busan/banner_2/banner_DT.jpg/_jcr_content/renditions/cq5dam.web.1680.1680.webp"
+                alt="..." class="first-img">
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.prada.com/content/dam/pradanux/home_page/2024/05/May_Issue/3_maggio/summer_collection/man/banner_TB.jpg/_jcr_content/renditions/cq5dam.web.1263.1263.webp"
+                class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!--슬라이드 끝-->
+<!--카드 형식-->
+<div class="gridsection">
+ <h2>new items</h2>
+ <p>2024년을 이끌 S/S 신상들을 만나보세요.</p>
+<div class="row row-cols-1 row-cols-md-2 g-4">  
+  <div class="col">
+    <div class="card">
+      <img src="https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC219/2CYSF03BH/1BC219_2CYS_F03BH_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" class="card-img-top" alt="프라다 브라운 가죽 가방">
+      <div class="card-body">
+        <h5 class="card-title">프라다 소가죽 숄더백</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.prada.com/content/dam/pradabkg_products/2/2EE/2EE364/3LKGF070E/2EE364_3LKG_F070E_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.600.600.jpg" class="card-img-top" alt="프라다 스니커즈">
+      <div class="card-body">
+        <h5 class="card-title">프라다 스니커즈</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.prada.com/content/dam/pradabkg_products/1/1BG/1BG422/2C2TF0ES7/1BG422_2C2T_F0ES7_V_OOL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1200.1200.jpg" class="card-img-top" alt="프라다 검정 가방">
+      <div class="card-body">
+        <h5 class="card-title">프라다 토트백</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.prada.com/content/dam/pradabkg_products/1/1IF/1IF051/2BA6F0632/1IF051_2BA6_F0632_SLF.jpg/_jcr_content/renditions/cq5dam.web.hebebed.600.600.jpg" class="card-img-top" alt="프라다 헤어핀">
+      <div class="card-body">
+        <h5 class="card-title">프라다 클래식 헤어핀
+        </h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--카드 형식-->
+<div class="campagine-section text-center mt-5 mb-5">
+  <h2>
+      PRADA IS BETTER YOUR LIFE.
+  </h2>
+  <p>
+      프라다의 깔끔하고 모던한 다양한 상품을 만나보세요.
+  </p>
+  <button type="button" class="btn btn-dark">GO TO ITEMS</button>
+</div>
+<!--footer-->
+<div class="container">
+  <footer class="py-5 border-top">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <a class="navbar-brand" href="#">PRADA</a>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+      <p>&copy; 2024 Company, Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
